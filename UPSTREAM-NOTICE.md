@@ -6,6 +6,7 @@ Sağlanan kaynakta `LICENSE`, yazar bilgisi veya yeniden dağıtım izni bulunma
 
 - Eski Workshop `remote_file_id` değeri bu projeye alınmadı.
 - Eski kapak görseli bu projeye kopyalanmadı.
+- Mevcut `thumbnail.png`, proje sahibi tarafından sağlandı.
 - Genel depoya veya yeni bir Steam Workshop öğesine yayın yapmadan önce, özgün sahibin izin/lisans durumunu doğrula ve gerekli atfı ekle.
 
 Özgün sahibin güncelleme yapmaması, tek başına yeniden dağıtım izni anlamına gelmez.

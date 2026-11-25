@@ -1,7 +1,8 @@
-version="4.6.2"
+version="4.6.3"
 tags={
 	"Translation"
 	"Utilities"
 }
 name="Türkler"
+picture="thumbnail.png"
 supported_version="v4.6.*"

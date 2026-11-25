@@ -7,6 +7,7 @@ project_dir="${script_dir:h}"
 mod_dir="${project_dir}/mod"
 descriptor="${mod_dir}/descriptor.mod"
 name_list="${mod_dir}/common/name_lists/turkish_tr.txt"
+thumbnail="${mod_dir}/thumbnail.png"
 
 fail() {
 	print -u2 -- "HATA: $*"
@@ -15,12 +16,14 @@ fail() {
 
 [[ -f "${descriptor}" ]] || fail "descriptor.mod bulunamadı."
 [[ -f "${name_list}" ]] || fail "Türkçe isim listesi bulunamadı."
+[[ -s "${thumbnail}" ]] || fail "Mod kapağı thumbnail.png bulunamadı veya boş."
 
 if grep -qE '^[[:space:]]*remote_file_id[[:space:]]*=' "${descriptor}"; then
 	fail "Paket eski Steam Workshop kimliği içeriyor."
 fi
 
 grep -qE '^supported_version="v4\.6\.\*"$' "${descriptor}" || fail "4.6 uyumluluk etiketi eksik."
+grep -qE '^picture="thumbnail\.png"$' "${descriptor}" || fail "thumbnail.png tanımı descriptor.mod içinde eksik."
 grep -qE '^TURKISH_TR[[:space:]]*=' "${name_list}" || fail "Benzersiz TURKISH_TR isim listesi kimliği eksik."
 
 [[ "$(xxd -p -l 3 "${name_list}")" != "efbbbf" ]] || fail "İsim listesi UTF-8 BOM içeriyor; Stellaris bunu kabul etmiyor."

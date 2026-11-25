@@ -1,5 +1,11 @@
 # Değişiklik Kaydı
 
+## 4.6.3 — kapak düzeltmesi
+
+- Kullanıcının sağladığı kapak için descriptor’a `picture="thumbnail.png"` eklendi.
+- Yerel Paradox Launcher kartı artık varsayılan disk simgesi yerine mod kapağını kullanır.
+- Doğrulama betiği kapak dosyasını ve descriptor tanımını denetler.
+
 ## 4.6.2 — yerelleştirme düzeltmesi
 
 - Lider, hükümdar ve sıralı filo/ordu adları oyunun beklediği yerelleştirme anahtarlarına taşındı.
