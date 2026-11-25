@@ -25,6 +25,6 @@ Geliştirme hedefi kurulu **Stellaris 4.6.0 (Corona Borealis)** sürümüdür. P
 
 Her Stellaris ana sürümünde önce `scripts/compare-vanilla-ship-keys.zsh`, sonra `scripts/validate-mod.zsh` çalıştır. Yeni bir vanilla sınıfı eklenmişse, `mod/common/name_lists/turkish_tr.txt` içindeki `generic` havuz zaten geri dönüş sağlar; yalnızca daha tematik ayrı bir havuz istersen sınıfa özel blok ekle.
 
-## Yayın öncesi
+## Yayın notu
 
-Bu proje eski bir Workshop içeriğinden türetilmiştir. Yayın hakkı ve atıf koşulları için [UPSTREAM-NOTICE.md](UPSTREAM-NOTICE.md) dosyasını tamamlamadan GitHub veya Steam Workshop'a gönderme.
+Bu proje eski bir Workshop içeriğinden esinlenmiştir; etkin isim listesi Stellaris 4.6 şemasına göre yeniden yazılmıştır. Yayın kapsamı, kaynak notu ve atıf değerlendirmesi için [UPSTREAM-NOTICE.md](UPSTREAM-NOTICE.md) dosyasına bakın.
