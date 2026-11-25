@@ -14,3 +14,6 @@ Kullanım:
 Yeni oyun oluştururken Name Lists bölümünden "Türkler" seçeneğini seçin.
 
 Not: Aynı Playset'te başka bir Türkçe isim listesi modu etkinse, çakışmayı önlemek için yalnızca birini kullanın.
+
+Kaynak kodu ve güncellemeler:
+https://github.com/enesmisirlioglu0/Stellaris-Turkce-Isimler
