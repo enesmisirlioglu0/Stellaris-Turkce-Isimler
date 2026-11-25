@@ -1,0 +1,16 @@
+Türkler — Stellaris 4.6 için Türk temalı isim listesi
+
+Bu mod bir arayüz çevirisi değildir. Yeni imparatorluk oluştururken seçilebilen "Türkler" isim listesine Türk toplulukları, tarihî şehirler, unvanlar ve kişilerden esinlenen adlar ekler.
+
+İçerik:
+- Lider ve hükümdar adları
+- Gemi, filo ve ordu adları
+- Gezegen ve karakter adları
+- Yeni oyun sınıfları için genel geri dönüş ad havuzları
+
+Uyumluluk: Stellaris v4.6.*
+
+Kullanım:
+Yeni oyun oluştururken Name Lists bölümünden "Türkler" seçeneğini seçin.
+
+Not: Aynı Playset'te başka bir Türkçe isim listesi modu etkinse, çakışmayı önlemek için yalnızca birini kullanın.
