@@ -7,6 +7,7 @@ Sağlanan kaynakta `LICENSE`, yazar bilgisi veya yeniden dağıtım izni bulunma
 - Eski Workshop `remote_file_id` değeri bu projeye alınmadı.
 - Eski kapak görseli bu projeye kopyalanmadı.
 - Kullanıcının sağladığı önceki ekran görüntüsü `thumbnail-source.png` adıyla korunur; yayın kapağı `thumbnail.png` bu proje için özgün olarak hazırlanmıştır.
-- Genel depoya veya yeni bir Steam Workshop öğesine yayın yapmadan önce, özgün sahibin izin/lisans durumunu doğrula ve gerekli atfı ekle.
 
-Özgün sahibin güncelleme yapmaması, tek başına yeniden dağıtım izni anlamına gelmez.
+Kullanıcı, 25 Kasım 2026 tarihinde bu sürümün eski moddan yalnızca esinlendiğini; etkin ad listesinin yeniden yazıldığını ve yeni kapağın bu proje için üretildiğini teyit ederek bağımsız yayın izni vermiştir.
+
+Özgün sahibin güncelleme yapmaması, tek başına yeniden dağıtım izni anlamına gelmez. Gelecekte eski sürümden yeni dosya, metin veya görsel alınacaksa ilgili izin/lisans yeniden değerlendirilmelidir.
