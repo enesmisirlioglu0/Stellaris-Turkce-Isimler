@@ -1,8 +1,8 @@
-# Stellaris Türkçe İsimler
+# Stellaris Türkler
 
-Stellaris 4.x için, özellikle Hun, Göktürk, Uygur, Karahanlı ve Selçuklu mirasından esinlenen tarihî Türk isim listesi. Bu bir arayüz çevirisi değildir; imparatorluk, gemi, filo, gezegen, ordu ve karakter adlarını sağlar.
+**Türkler**, Stellaris 4.6 için Türk toplulukları, devletleri ve şehirlerinden esinlenen bir isim listesidir. Bu bir arayüz çevirisi değildir; imparatorluk, gemi, filo, gezegen, ordu ve karakter adlarını sağlar.
 
-Geliştirme hedefi kurulu **Stellaris 4.6.0 (Corona Borealis)** sürümüdür. Paket yalnızca yerleşik isim listesi biçimini kullandığından `v4.*` ile uyumlu olarak işaretlenmiştir; yine de her büyük oyun güncellemesinde karşılaştırma betiğini çalıştır.
+Geliştirme hedefi kurulu **Stellaris 4.6.0 (Corona Borealis)** sürümüdür. Paket yalnızca yerleşik isim listesi biçimini ve genel geri dönüş havuzlarını kullandığından yeni gemi sınıflarında da çalışmaya devam eder; yine de her büyük oyun güncellemesinde karşılaştırma betiğini çalıştır.
 
 ## Proje düzeni
 
@@ -15,8 +15,8 @@ Geliştirme hedefi kurulu **Stellaris 4.6.0 (Corona Borealis)** sürümüdür. P
 
 1. `scripts/validate-mod.zsh` komutunu çalıştır.
 2. `scripts/install-local.zsh` komutunu çalıştır. Bu, `~/Documents/Paradox Interactive/Stellaris/mod/stellaris_turkce_isimler_4x` altında yeni bir kopya ve Launcher için ayrı descriptor oluşturur. Mevcut bir klasörün üstüne yazmaz.
-3. Paradox Launcher'da yeni bir Playset oluştur, **Türkçe İsimler — Tarihî Türk Devletleri** modunu ekle ve eski `Türkçe İsimler v3.0.3` modunu aynı Playset'e ekleme.
-4. Yeni imparatorluk oluşturma ekranında **Turkish Names (Historical)** listesini seç. Oyuna girip başlangıç gemisi, filo ve lider isimlerini doğrula.
+3. Paradox Launcher'da yeni bir Playset oluştur, **Türkler** modunu ekle ve eski `Türkçe İsimler v3.0.3` modunu aynı Playset'e ekleme.
+4. Yeni imparatorluk oluşturma ekranında **Türkler** listesini seç. Oyuna girip başlangıç gemisi, filo ve lider isimlerini doğrula.
 5. Oyunun `logs/error.log` dosyasında bu modla ilgili parse hatası bulunmadığını kontrol et.
 
 ## Güncelleme kuralı

@@ -1,6 +1,6 @@
 # Kaynak ve yayın notu
 
-Bu proje, kullanıcının sağladığı eski **Türkçe İsimler v3.0.3** mod kopyasındaki isim listesinden türetilmiştir. Kaynak Workshop öğesi `2492384334` idi.
+Bu proje başlatılırken kullanıcının sağladığı eski **Türkçe İsimler v3.0.3** mod kopyası uyumluluk ve veri yapısı için incelendi. Kaynak Workshop öğesi `2492384334` idi. 4.6.1 itibarıyla etkin isim listesi, 4.6’nın yerleşik şemasına göre baştan yazılmıştır.
 
 Sağlanan kaynakta `LICENSE`, yazar bilgisi veya yeniden dağıtım izni bulunmadı. Bu nedenle:
 

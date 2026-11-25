@@ -26,4 +26,4 @@ cp -R "${source_mod_dir}" "${target_mod_dir}"
 sed "s|__MOD_PATH__|${target_mod_dir}|g" "${template}" > "${target_descriptor}"
 
 print -- "Yerel test modu hazır: ${target_mod_dir}"
-print -- "Paradox Launcher'da ayrı bir Playset oluşturup 'Türkçe İsimler — Tarihî Türk Devletleri' modunu ekle."
+print -- "Paradox Launcher'da ayrı bir Playset oluşturup 'Türkler' modunu ekle."

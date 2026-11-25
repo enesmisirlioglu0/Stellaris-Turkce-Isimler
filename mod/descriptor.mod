@@ -1,7 +1,7 @@
-version="4.6.0"
+version="4.6.2"
 tags={
 	"Translation"
 	"Utilities"
 }
-name="Türkçe İsimler — Tarihî Türk Devletleri"
-supported_version="v4.*"
+name="Türkler"
+supported_version="v4.6.*"
