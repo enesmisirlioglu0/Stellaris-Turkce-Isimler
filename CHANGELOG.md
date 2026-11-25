@@ -1,9 +1,15 @@
 # Değişiklik Kaydı
 
+## 4.6.4 — Launcher kapak uyumluluğu
+
+- Kapak, Launcher ile en uyumlu biçim olan opak 512×512 PNG olarak yenilendi.
+- Yeni kapak sade Türk bayrağı ay-yıldız simgesi ve **Türkler** başlığını kullanır.
+- Kullanıcının sağladığı önceki ekran görüntüsü `thumbnail-source.png` adıyla pakette korunur.
+
 ## 4.6.3 — kapak düzeltmesi
 
 - Kullanıcının sağladığı kapak için descriptor’a `picture="thumbnail.png"` eklendi.
-- Yerel Paradox Launcher kartı artık varsayılan disk simgesi yerine mod kapağını kullanır.
+- Yerel Paradox Launcher kartı için kapak tanımı eklendi.
 - Doğrulama betiği kapak dosyasını ve descriptor tanımını denetler.
 
 ## 4.6.2 — yerelleştirme düzeltmesi
