@@ -5,6 +5,7 @@
 - Kapak, Launcher ile en uyumlu biçim olan opak 512×512 PNG olarak yenilendi.
 - Yeni kapak sade Türk bayrağı ay-yıldız simgesi ve **Türkler** başlığını kullanır.
 - Kullanıcının sağladığı önceki ekran görüntüsü `thumbnail-source.png` adıyla pakette korunur.
+- Bağımsız Steam Workshop öğesi oluşturuldu: `3845647864`.
 
 ## 4.6.3 — kapak düzeltmesi
 

@@ -18,12 +18,9 @@ fail() {
 [[ -f "${name_list}" ]] || fail "Türkçe isim listesi bulunamadı."
 [[ -s "${thumbnail}" ]] || fail "Mod kapağı thumbnail.png bulunamadı veya boş."
 
-if grep -qE '^[[:space:]]*remote_file_id[[:space:]]*=' "${descriptor}"; then
-	fail "Paket eski Steam Workshop kimliği içeriyor."
-fi
-
 grep -qE '^supported_version="v4\.6\.\*"$' "${descriptor}" || fail "4.6 uyumluluk etiketi eksik."
 grep -qE '^picture="thumbnail\.png"$' "${descriptor}" || fail "thumbnail.png tanımı descriptor.mod içinde eksik."
+grep -qE '^remote_file_id="3845647864"$' "${descriptor}" || fail "Bu yayına ait Steam Workshop kimliği descriptor.mod içinde eksik veya yanlış."
 grep -qE '^TURKISH_TR[[:space:]]*=' "${name_list}" || fail "Benzersiz TURKISH_TR isim listesi kimliği eksik."
 
 [[ "$(xxd -p -l 3 "${name_list}")" != "efbbbf" ]] || fail "İsim listesi UTF-8 BOM içeriyor; Stellaris bunu kabul etmiyor."

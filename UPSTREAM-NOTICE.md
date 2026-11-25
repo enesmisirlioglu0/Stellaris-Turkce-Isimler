@@ -4,7 +4,7 @@ Bu proje başlatılırken kullanıcının sağladığı eski **Türkçe İsimler
 
 Sağlanan kaynakta `LICENSE`, yazar bilgisi veya yeniden dağıtım izni bulunmadı. Bu nedenle:
 
-- Eski Workshop `remote_file_id` değeri bu projeye alınmadı.
+- Eski Workshop `remote_file_id` değeri bu projeye alınmadı. Bu bağımsız yayın için yeni Steam Workshop kimliği `3845647864` oluşturuldu.
 - Eski kapak görseli bu projeye kopyalanmadı.
 - Kullanıcının sağladığı önceki ekran görüntüsü `thumbnail-source.png` adıyla korunur; yayın kapağı `thumbnail.png` bu proje için özgün olarak hazırlanmıştır.
 

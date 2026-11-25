@@ -2,6 +2,8 @@
 
 **Türkler**, Stellaris 4.6 için Türk toplulukları, devletleri ve şehirlerinden esinlenen bir isim listesidir. Bu bir arayüz çevirisi değildir; imparatorluk, gemi, filo, gezegen, ordu ve karakter adlarını sağlar.
 
+Steam Workshop: [Türkler](https://steamcommunity.com/sharedfiles/filedetails/?id=3845647864)
+
 Geliştirme hedefi kurulu **Stellaris 4.6.0 (Corona Borealis)** sürümüdür. Paket yalnızca yerleşik isim listesi biçimini ve genel geri dönüş havuzlarını kullandığından yeni gemi sınıflarında da çalışmaya devam eder; yine de her büyük oyun güncellemesinde karşılaştırma betiğini çalıştır.
 
 ## Proje düzeni
